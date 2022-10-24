@@ -161,8 +161,11 @@ setInterval(printTime, 1000);
 ### Q19
 
 1
+
 4
+
 3
+
 2
 
 1 and 4 are printed before 3 and 2 because they do not hae timeouts set. 2 has a longer timeout delay than 3 which prints it later than 3.
